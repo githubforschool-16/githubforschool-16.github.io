@@ -1,0 +1,50 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Philosopher', sans-serif;
+  background: url(header.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1 {
+  font-size: 3rem;
+  color: whitesmoke;
+}
+
+.btn-xl {
+  padding: 1rem 2rem;
+}
+
+hr {
+  border-color: #F05F44;
+  border-width: 3px;
+  width: 65px;
+  opacity: 1.0;
+}
+
+.buffer {
+  height: 12.5rem;
+}
+
+.btn {
+  width: 200px;
+  font-weight: 700;
+  border-radius: 300px;
+  text-transform: uppercase;
+  transition: 0.1s all;
+}
+
+.btn-primary {
+  background-color: #F05F44;
+  border-color: #F05F44;
+}
+
+.btn-primary:hover {
+  background-color: #EE4B08;
+  border-color: #EE4B08;
+  border-width: 4px;
+}
